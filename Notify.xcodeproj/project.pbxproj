@@ -13,6 +13,7 @@
 		B50BEEA12737DB5000413764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50BEE9F2737DB5000413764 /* Main.storyboard */; };
 		B50BEEA32737DB5100413764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50BEEA22737DB5100413764 /* Assets.xcassets */; };
 		B50BEEA62737DB5100413764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50BEEA42737DB5100413764 /* LaunchScreen.storyboard */; };
+		B50BEEAE2737DCDE00413764 /* Notify.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50BEEAD2737DCDE00413764 /* Notify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B50BEEA22737DB5100413764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50BEEA52737DB5100413764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B50BEEA72737DB5100413764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50BEEAD2737DCDE00413764 /* Notify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,19 @@
 				B50BEE992737DB5000413764 /* AppDelegate.swift */,
 				B50BEE9B2737DB5000413764 /* SceneDelegate.swift */,
 				B50BEE9D2737DB5000413764 /* ViewController.swift */,
+				B50BEEAF2737DCF800413764 /* Notify */,
 				B50BEE9F2737DB5000413764 /* Main.storyboard */,
 				B50BEEA22737DB5100413764 /* Assets.xcassets */,
 				B50BEEA42737DB5100413764 /* LaunchScreen.storyboard */,
 				B50BEEA72737DB5100413764 /* Info.plist */,
+			);
+			path = Notify;
+			sourceTree = "<group>";
+		};
+		B50BEEAF2737DCF800413764 /* Notify */ = {
+			isa = PBXGroup;
+			children = (
+				B50BEEAD2737DCDE00413764 /* Notify.swift */,
 			);
 			path = Notify;
 			sourceTree = "<group>";
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50BEEAE2737DCDE00413764 /* Notify.swift in Sources */,
 				B50BEE9E2737DB5000413764 /* ViewController.swift in Sources */,
 				B50BEE9A2737DB5000413764 /* AppDelegate.swift in Sources */,
 				B50BEE9C2737DB5000413764 /* SceneDelegate.swift in Sources */,
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95D67VXK3X;
 				INFOPLIST_FILE = Notify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95D67VXK3X;
 				INFOPLIST_FILE = Notify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
