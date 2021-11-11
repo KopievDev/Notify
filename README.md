@@ -1,6 +1,6 @@
 # Notify 
 ```swift
-// Пример
+// Example
 class ViewController: UIViewController {
  
    @IBAction func didTapOnButton(_ sender: Any) {
@@ -13,10 +13,10 @@ class ViewController: UIViewController {
 
 ```
 ```swift
-Notify.showSuccsess(title: "Сообщение")
-Notify.showError(title: "Сообщение")
-Notify.showWith(title: "Сообщение", image: nil, type: .gray, duration: 3, haptic: .success) {
-    //Ваш код
+Notify.showSuccsess(title: "Message")
+Notify.showError(title: "Message")
+Notify.showWith(title: "Message", image: nil, type: .gray, duration: 3, haptic: .success) {
+    //Comletion handler 
 }
 
 ```
