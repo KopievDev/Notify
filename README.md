@@ -4,8 +4,8 @@
 class ViewController: UIViewController {
  
    @IBAction func didTapOnButton(_ sender: Any) {
-        Notify.showSuccsess(title: "Hello Bro\nHow are you!?") {
-            self.view.backgroundColor = .systemPink
+        Notify.showSuccsess(title: "Hello Bro\nHow are you!?") {[weak self] in
+            self?.view.backgroundColor = .systemPink
         }
     }
 
